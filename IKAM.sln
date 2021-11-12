@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSG.IKAM.DAL", "DSG.IKAM.DAL\DSG.IKAM.DAL.csproj", "{CF692201-272D-4D0C-B4E2-ECDA72347F8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852} = {6D230CA4-44CD-411B-9F25-F14AA9ABB852}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSG.IKAM.SHARED", "DSG.IKAM.SHARED\DSG.IKAM.SHARED.csproj", "{6D230CA4-44CD-411B-9F25-F14AA9ABB852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSG.IKAM.BAL", "DSG.IKAM.BAL\DSG.IKAM.BAL.csproj", "{2851A08B-0291-49BE-9737-CAB841147FCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF692201-272D-4D0C-B4E2-ECDA72347F8D} = {CF692201-272D-4D0C-B4E2-ECDA72347F8D}
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852} = {6D230CA4-44CD-411B-9F25-F14AA9ABB852}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSG.IKAM.WEB", "DSG.IKAM.WEB\DSG.IKAM.WEB.csproj", "{0923C844-413E-40E2-A192-DBF903F10645}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2851A08B-0291-49BE-9737-CAB841147FCB} = {2851A08B-0291-49BE-9737-CAB841147FCB}
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852} = {6D230CA4-44CD-411B-9F25-F14AA9ABB852}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSG.IKAM.WEB.Test", "DSG.IKAM.WEB.Test\DSG.IKAM.WEB.Test.csproj", "{A2C4D05B-8A7A-4BB7-B383-1C89EFFD4DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF692201-272D-4D0C-B4E2-ECDA72347F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF692201-272D-4D0C-B4E2-ECDA72347F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF692201-272D-4D0C-B4E2-ECDA72347F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF692201-272D-4D0C-B4E2-ECDA72347F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D230CA4-44CD-411B-9F25-F14AA9ABB852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2851A08B-0291-49BE-9737-CAB841147FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2851A08B-0291-49BE-9737-CAB841147FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2851A08B-0291-49BE-9737-CAB841147FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2851A08B-0291-49BE-9737-CAB841147FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0923C844-413E-40E2-A192-DBF903F10645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0923C844-413E-40E2-A192-DBF903F10645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0923C844-413E-40E2-A192-DBF903F10645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0923C844-413E-40E2-A192-DBF903F10645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C4D05B-8A7A-4BB7-B383-1C89EFFD4DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C4D05B-8A7A-4BB7-B383-1C89EFFD4DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C4D05B-8A7A-4BB7-B383-1C89EFFD4DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C4D05B-8A7A-4BB7-B383-1C89EFFD4DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7E12B1D-8A8A-423A-8C1A-9AD3D567A500}
+	EndGlobalSection
+EndGlobal
