@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DSG.IKAM.SHARED.Common.AuditableEntity" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuditableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Http.ErrorDto" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Http\ErrorDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Http.File" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAJAAAA=</HashCode>
+      <FileName>Http\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Http.Response" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Http\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Http.Response&lt;TReturn&gt;" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Http\ResponseOfTReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Utilities.EnumExtensions" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\EnumExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Utilities.DateTime2" Collapsed="true">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Utilities\DateTime2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSG.IKAM.SHARED.Utilities.DbUtilities" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAQEAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\DbUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DSG.IKAM.SHARED.Enums.CommandType" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAgAAAAAAAAgAAAQAAAAAAAAAAACAQAAAAAAAAAAQ=</HashCode>
+      <FileName>Enums\CommandType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DSG.IKAM.SHARED.Enums.ConditionType" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAQAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ConditionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DSG.IKAM.SHARED.Enums.DocumentStatus" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAgAgAQAAAAAAAAAgAAAAAAAAAAAAQgA=</HashCode>
+      <FileName>Enums\DocumentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DSG.IKAM.SHARED.Enums.DocumentType" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAIAAAAAAAAAAAAACCAAAAEAAAA=</HashCode>
+      <FileName>Enums\DocumentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DSG.IKAM.SHARED.Enums.MessageType" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\MessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DSG.IKAM.SHARED.Enums.RowFlag" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Enums\RowFlag.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
